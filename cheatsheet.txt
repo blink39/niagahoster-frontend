@@ -1,0 +1,11 @@
+.env.example diganti jadi .env
+
+kalau wsl gabisa jalan di vscode, set ubuntu as default dulu dan ganti versi 2
+
+git add .
+git commit -m "Initial Commit"
+git push heroku HEAD:master / main
+
+1. composer install
+2. open wsl ./vendor/bin/sail up
+3. open wsl ./vendor/bin/sail artisan db:seed
