@@ -14,3 +14,5 @@
 - open wsl "./vendor/bin/sail artisan db:seed" to get db for boxbilling
 - Type "localhost" in your browser to access landing page
 - Type "localhost:5050" to access mysql
+
+* Please change your env file name to ".env" if your env file name ".env-example" after composer install
